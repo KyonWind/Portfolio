@@ -1,0 +1,14 @@
+<header>
+<ul>
+  <li [routerLink]="['/sobreMi']" [routerLinkActive]="['activated']" >Sobre MI</li>
+  <li [routerLink]="['/proyecto']"[routerLinkActive]="['activated']">Proyectos</li>
+  <li [routerLink]="['/crear']" [routerLinkActive]="['activated']">Crear</li>
+  <li [routerLink]="['/contacto']"[routerLinkActive]="['activated']">Contacto</li>
+</ul>
+</header>
+<section id="content">
+  <router-outlet></router-outlet>
+</section>
+<footer><p>Portfolio de Simon Cequea &copy;</p>
+<p>Desarrollado en: <strong>Angular 8</strong> </p>
+</footer>
